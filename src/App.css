@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #131A28;
+  font-family: "Fredoka", sans-serif;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  
+}
+
+.headerText{
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.clear{
+  margin-top: 30px;
+  padding: 7px;
+  border: #131A28;
+  border-radius: 3px;
+  color: #131A28;
+  cursor: pointer;
+}
+
+.clear:hover{
+  background-color: #131A28;
+  color: white;
+  border: 1px solid white;
+  transition: 0.15s;
+}
