@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Box.css"
 
-function Box({state}) {
+function Box(props) {
   return (
-    <button className="box">{state}</button>
+    <button className="box" onClick={props.onClick}>{props.state}</button>
   )
 }
 

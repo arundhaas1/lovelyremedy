@@ -25,6 +25,25 @@ body{
   text-align: center;
 }
 
+.row{
+  display: flex;
+  justify-content: center;
+
+  /* flex-direction: row; */
+  
+}
+
+.results{
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+span{
+  color: #1CDBF5;
+}
+
 .clear{
   margin-top: 30px;
   padding: 7px;
