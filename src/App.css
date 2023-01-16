@@ -1,61 +1,82 @@
-*{
-  box-sizing: border-box;
+* {
+  padding-top: 0;
+  /* top: 0; */
+  margin-left: 0;
+  /* background-color: rgb(173, 255, 255); */
 }
 
-body{
-  margin: 0;
-  background-color: #131A28;
-  font-family: "Fredoka", sans-serif;
-}
-
-.App{
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-  color: white;
-  
+  background: url("C:\Users\sowmi\Desktop\react-tic-tac-toe\public\assets\wp5415564-simple-heart-wallpapers.jpg");
+  height: 98vh;
 }
 
-.headerText{
-  font-weight: bolder;
-  font-size: xx-large;
-  text-align: center;
+.app > h3 {
+  color: rgb(82, 82, 107);
 }
 
-.row{
+.app {
+  padding-top: 10px;
+}
+
+.app_buttons {
   display: flex;
+  margin-top: 60px;
+  gap: 10px;
+  align-items: center;
   justify-content: center;
-
-  /* flex-direction: row; */
-  
 }
 
-.results{
-  display: flex;
-  justify-content: space-around;
-  font-size: 22px;
-  font-weight: bold;
-}
+.credits{
+  font-size: 9px;
+  /* margin-top: auto; */
+  margin-bottom: -20px;
 
-span{
-  color: #1CDBF5;
 }
-
-.clear{
-  margin-top: 30px;
-  padding: 7px;
-  border: #131A28;
-  border-radius: 3px;
-  color: #131A28;
+.app_yes {
+  padding: 7px 9px;
+  border-radius: 10px;
+  background-color: rgb(129, 126, 126);
+  margin-top: -70px;
+  margin-left: -55px;
+  /* cursor: po; */
   cursor: pointer;
+  color: white;
+  position: fixed;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
 }
 
-.clear:hover{
-  background-color: #131A28;
+.app_yes:hover {
+  background-color: white;
+  color: black;
+}
+
+.app_no {
+  /* position: absolute; */
+
+  left: 39%;
+  top: 58%;
+}
+
+.app_nos {
+  /* background-color: aquamarine; */
+  padding: 7px 9px;
+  border-radius: 10px;
+  background-color: rgb(129, 126, 126);
+  cursor: pointer;
   color: white;
-  border: 1px solid white;
-  transition: 0.15s;
+}
+
+.app_noy {
+  /* background-color: aqua; */
+  padding: 7px 9px;
+  border-radius: 10px;
+  background-color: rgb(129, 126, 126);
+  cursor: pointer;
+  color: white;
+  margin-left: 300px;
 }
